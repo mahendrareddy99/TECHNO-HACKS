@@ -1,0 +1,167 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #141414;
+}
+
+header.hero {
+    position: relative;
+    background: url('https://via.placeholder.com/1600x800?text=StreamFlix+Hero+Image') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 2em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #e50914;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background: #b81d13;
+}
+
+/* About Section */
+section.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+section.features {
+    background: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+}
+
+/* CTA Section */
+section.cta {
+    background: #e50914;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
